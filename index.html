@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <main>
+        <section id="gameArea" aria-label="Snake Game Board">
+            <div id="board" role="region" aria-label="Game Board"></div>
+        </section>
+        <aside class="boardInfo" aria-label="Game Information">
+            <div>
+                <span>Score:</span>
+                <output id="scoreBoard" aria-live="polite"></output>
+            </div>
+            <button id="start" type="button">Start</button>
+        </aside>
+        <section id="gameOver" role="alert" aria-live="assertive">Game Over</section>
+    </main>
+</body>
+</html>
